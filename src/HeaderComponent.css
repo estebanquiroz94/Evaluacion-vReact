@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+}
+
+.navbar > .container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar > .container > .nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar > .container > .nav li{
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.badge-danger{
+    background-color: red;
+}
